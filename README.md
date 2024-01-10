@@ -52,7 +52,7 @@ We will be always happy to help for any problem or difficulties you may face dur
 
 Based on your own interests, you may start in the following 2 different ways:
 
-If you are interested in a specific dataset, your can:
+If you are interested in a specific dataset (you can find many datasets [here](https://huggingface.co/datasets?language=language:code&sort=trending)), your can:
 
 - find the corresponding documentation about the dataset to know more about how the dataset was built
 - based on your understanding, decide which data-centric method you want to apply on the dataset which will help to improve the dataset quality
