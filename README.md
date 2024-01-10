@@ -37,7 +37,7 @@ Similar to the data in other domains, the data in software engineering also suff
 We are actively expanding the list of SE data quality issues. If you have any suggestions, please feel free to open an issue or pull request. Currently, we mainly focus on the following SE data quality issues:
 
 - SE Data Security
-- SE Data Privacy
+- SE Data Quality Assessment
 - SE Data Augmentation
 
 ## How to Contribute
