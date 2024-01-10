@@ -22,7 +22,7 @@ The quality of software engineering datasets is crucial for the success of data-
 
 In this project, we aim to develop a data-centric library for researchers and practitioners (especially LLM developers) for improving the quality of software engineering datasets.
 
-Btw, SEEDGuard is short for **S**oftware **E**ngineering **E**mpirical **D**ata **Guard**.
+Btw, SEEDGuard is short for **S**oftware Engin**EE**ring **D**ata **Guard**.
 
 ## Workflow
 
