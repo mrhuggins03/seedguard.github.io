@@ -1,4 +1,4 @@
-# SEEDGuard
+# SEEDGuard.AI
 
 ![SEEDGuard Icon](./imgs/icon.png)
 
@@ -8,7 +8,7 @@ The vision of SEEDGuard is to provide a platform for researchers and practitione
 
 ## Table of Contents
 
-- [SEEDGuard](#seedguard)
+- [SEEDGuard.AI](#seedguard)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [SE Data Quality Issues](#se-data-quality-issues)
@@ -16,7 +16,7 @@ The vision of SEEDGuard is to provide a platform for researchers and practitione
   - [Contact](#contact)
   - [License](#license)
 
-## Vision of SEEDGuard
+## Vision of SEEDGuard.AI
 
 The quality of software engineering datasets is crucial for the success of data-driven software engineering research. However, the quality of software engineering datasets is often overlooked.
 
@@ -26,13 +26,13 @@ Btw, SEEDGuard is short for **S**oftware Engin**EE**ring **D**ata **Guard**.
 
 ## Workflow
 
-The workflow of SEEDGuard is shown in the following figure:
+The workflow of SEEDGuard.AI is shown in the following figure:
 
 ![SEEDGuard Workflow](./imgs/workflow.png)
 
 ## SE Data Quality Issues
 
-Similar to the data in other domains, the data in software engineering also suffers from various quality issues. For example, limited high-quality labeled data, data privacy issues, data imbalance, etc. Moreover, SE data also has its own unique quality issues especially relate to code. For example, code used for training LLM can be poisoned to mislead developers to use insecure code.
+Similar to the data in other domains, the data in software engineering also suffers from various quality issues. For example, limited high-quality labeled data, data privacy issues, data imbalance, etc. Moreover, SE data also has its own unique quality issues especially related to code. For example, code used for training LLM can be poisoned to mislead developers to use insecure code.
 
 We are actively expanding the list of SE data quality issues. If you have any suggestions, please feel free to open an issue or pull request. Currently, we mainly focus on the following SE data quality issues:
 
@@ -42,7 +42,7 @@ We are actively expanding the list of SE data quality issues. If you have any su
 
 ## How to Contribute
 
-We're excited that you're interested in contributing to SEEDGuard! This document outlines the process for contributing to our project. Your contributions can make a real difference, and we appreciate every effort you make to help improve this project.
+We're excited that you're interested in contributing to SEEDGuard.AI! This document outlines the process for contributing to our project. Your contributions can make a real difference, and we appreciate every effort you make to help improve this project.
 
 We will be always happy to help for any problem or difficulties you may face during the contribution process.
 
@@ -55,12 +55,12 @@ Based on your own interests, you may start in the following 2 different ways:
 If you are interested in a specific dataset (you can find many datasets [here](https://huggingface.co/datasets?language=language:code&sort=trending)), your can:
 
 - find the corresponding documentation about the dataset to know more about how the dataset was built
-- based on your understanding, decide which data-centric method you want to apply on the dataset which will help to improve the dataset quality
+- based on your understanding, decide which data-centric method you want to apply to the dataset which will help to improve the dataset quality
 
 If you are interested in a specific data-centric method, you can:
 
-- identify a related research paper about a data-centric method which link to a specific data aspect (such as data security, data augementation) [Data-centric LLM4SE Paper Repo](https://github.com/SEEDGuard/Awesome-Data-centric-LLM4SE-Papers)
-- find the specific dataset (with its documentations) mentioned in the paper
+- identify a related research paper about a data-centric method which links to a specific data aspect (such as data security, data augmentation) [Data-centric LLM4SE Paper Repo](https://github.com/SEEDGuard/Awesome-Data-centric-LLM4SE-Papers)
+- find the specific dataset (with its documentation) mentioned in the paper
 
 In short, at the end of this step, you should have a clear idea about:
 
