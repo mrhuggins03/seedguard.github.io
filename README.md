@@ -1,37 +1,88 @@
 # SEEDGuard
 
-## Overview
-SEEDGuard is dedicated to interpreting popular software engineering datasets, especially the ones released on Hugging Face. Our goal is to collaboratively analyze this rich dataset, extracting meaningful insights and contributing to the broader software engineering community.
+![SEEDGuard Icon](./imgs/icon.png)
 
-## Call for Contributions
-We are excited to invite contributors from all backgrounds and levels of experience to join this project. Whether you're a seasoned data scientist, a software engineering enthusiast, or a student eager to learn and contribute, your input is valuable!
+> *It's impossible to have trustworthy AI without good data for AI models to learn.*
 
-## Data Analysis
-The data analysis will be conducted using **Jupyter Notebooks**, which offer a fantastic platform for combining code, visualizations, and narrative explanations. 
+The vision of SEEDGuard is to provide a platform for researchers and practitioners to share and discuss data-centric methods for improving the quality of software engineering datasets.
 
-### What We Expect
-- **Quality Analysis:** Implement data analysis scripts that are well-structured, efficient, and insightful.
-- **Clear Explanations:** Each Jupyter notebook should be accompanied by clear explanations of the analysis steps, methodologies, and findings.
-- **Visualization:** Leverage visualizations to represent data insights effectively.
+## Table of Contents
 
-### How to Contribute
-1. **Fork the Repository:** Start by forking this repository.
-2. **Analyze Data:** Use Jupyter Notebooks to perform your analysis on a specific dataset you interested.
-3. **Document Your Work:** Ensure your notebook includes comprehensive explanations and comments.
-4. **Submit a Pull Request:** Once you're satisfied with your analysis, submit a pull request for review.
+- [SEEDGuard](#seedguard)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [SE Data Quality Issues](#se-data-quality-issues)
+  - [Contributing](#contributing)
+  - [Contact](#contact)
+  - [License](#license)
+
+## Vision of SEEDGuard
+
+The quality of software engineering datasets is crucial for the success of data-driven software engineering research. However, the quality of software engineering datasets is often overlooked.
+
+In this project, we aim to develop a data-centric library for researchers and practitioners (especially LLM developers) for improving the quality of software engineering datasets.
+
+Btw, SEEDGuard is short for **S**oftware **E**ngineering **E**mpirical **D**ata **Guard**.
+
+## Workflow
+
+The workflow of SEEDGuard is shown in the following figure:
+
+![SEEDGuard Workflow](./imgs/workflow.png)
+
+## SE Data Quality Issues
+
+Similar to the data in other domains, the data in software engineering also suffers from various quality issues. For example, limited high-quality labeled data, data privacy issues, data imbalance, etc. Moreover, SE data also has its own unique quality issues especially relate to code. For example, code used for training LLM can be poisoned to mislead developers to use insecure code.
+
+We are actively expanding the list of SE data quality issues. If you have any suggestions, please feel free to open an issue or pull request. Currently, we mainly focus on the following SE data quality issues:
+
+- SE Data Security
+- SE Data Privacy
+- SE Data Augmentation
+
+## How to Contribute
+
+We're excited that you're interested in contributing to SEEDGuard! This document outlines the process for contributing to our project. Your contributions can make a real difference, and we appreciate every effort you make to help improve this project.
+
+We will be always happy to help for any problem or difficulties you may face during the contribution process.
 
 ## Getting Started
-1. **Clone the Repository:** After forking, clone the repository to your local machine.
-2. **Install Dependencies:** Make sure you have Jupyter Notebook and other required libraries installed.
-3. **Explore the Data:** Familiarize yourself with the dataset available on Hugging Face.
 
-## Guidelines
-- **Code of Conduct:** Adhere to our code of conduct, promoting a respectful and collaborative environment.
-- **Best Practices:** Follow best practices for data analysis and coding in Jupyter notebooks.
-- **Stay Curious:** Feel free to explore innovative approaches and share your unique perspectives.
+1. **Identify your target**
 
-## Support
-If you have any questions or need help, please open an issue in this repository, and we will be happy to assist. Please contact [bxu22@ncsu.edu](bxu22@ncsu.edu).
+Based on your own interests, you may start in the following 2 different ways:
 
-## Let's Collaborate
-Your contributions are not just valuable; they are essential to making this project a success. Let's work together to uncover the hidden stories in our software engineering data!
+If you are interested in a specific dataset, your can:
+
+- find the corresponding documentation about the dataset to know more about how the dataset was built
+- based on your understanding, decide which data-centric method you want to apply on the dataset which will help to improve the dataset quality
+
+If you are interested in a specific data-centric method, you can:
+
+- identify a related research paper about a data-centric method which link to a specific data aspect (such as data security, data augementation) [Data-centric LLM4SE Paper Repo](https://github.com/SEEDGuard/Awesome-Data-centric-LLM4SE-Papers)
+- find the specific dataset (with its documentations) mentioned in the paper
+
+In short, at the end of this step, you should have a clear idea about:
+
+- which dataset
+- which data-centric method
+- which data aspect
+- how to evaluate the method
+
+2. **Integrate the specifc data-centric method**
+
+Once you manage to find a data-centric method fits your interests, you can either choose to reuse the replication package released by the original authors or implement the method by yourself. In both cases, you should be able to integrate the method into our project.
+
+One important thing to note is that you should pack the method into a docker image. We provide a standard docker image template in the `docker` folder. You can find more details about how to build the docker image in the `docker` folder.
+
+3. **Evaluate the method**
+
+We provide a standard evaluation framework for evaluating the data-centric methods. You can find the evaluation framework in the `evaluation` folder. Please be aware that you need to standardize your input and output format by following the requirement of our evaluation framework.
+
+## Contact
+
+If you have any questions, please feel free to contact us via email [bxu22@ncsu.edu](bxu22@ncsu.edu) or open an issue.
+
+## License
+
+[MIT](LICENSE) © SEEDGuard
