@@ -1,20 +1,10 @@
 # SEEDGuard.AI
 
-![SEEDGuard Icon](./imgs/icon.png)
+<img src="./imgs/icon.png" alt="drawing" width="200"/>
 
 > *It's impossible to have trustworthy AI without good data for AI models to learn.*
 
 The vision of SEEDGuard is to provide a platform for researchers and practitioners to share and discuss data-centric methods for improving the quality of software engineering datasets.
-
-## Table of Contents
-
-- [SEEDGuard.AI](#seedguard)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [SE Data Quality Issues](#se-data-quality-issues)
-  - [Contributing](#contributing)
-  - [Contact](#contact)
-  - [License](#license)
 
 ## Vision of SEEDGuard.AI
 
